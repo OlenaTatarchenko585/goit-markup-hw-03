@@ -84,10 +84,20 @@ color: #434455;
 .nav-link:focus  {
 color: #404bbf; 
 }
+/* hero*/
+.hero-container {
+padding-top: 188px;
+padding-bottom: 188px;
+}
 .hero {
 background: #2e2f42
 }
 .hero-title {
+max-width: 496px;
+max-height: 120px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 48px;
 font-weight: 700;
 font-size: 56px;
 line-height: 1.07;
@@ -96,12 +106,18 @@ text-align: center;
 color: #fff;
  }
 .button {
+min-width: 169px; 
+height: 56px;   
+border: none;
+border-radius: 4px;
+display: block;
+margin: auto;    
 font-family: "Roboto", sans-serif;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-cursor: pointer;
+cursor:pointer;
 color: #fff;
 background-color: #4d5ae5;
 }
@@ -110,7 +126,7 @@ background-color: #4d5ae5;
 background: #404bbf;
 }
 
-
+/* feature */
 .feature { 
 }
 .feature-list {
@@ -126,6 +142,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455;
 }
+/* team */
 .team-section {
 background: #f4f4fd;
 }
@@ -171,7 +188,7 @@ color: #434455;
 .team-list {
 
 }
-
+/*portfolio */
 .portfolio-card-title {
 font-weight: 700;
 font-size: 36px;
@@ -199,6 +216,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455
 }
+/* footer */
 .footer-container {
 width: 264px; 
 height: 112px;
