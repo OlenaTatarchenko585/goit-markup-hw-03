@@ -128,9 +128,34 @@ background: #404bbf;
 }
 
 /* feature */
-.feature { 
+.feature {
+width: calc((100% - 72px) / 4);
+}
+.feature-section {
+padding-top: 120px; 
+padding-bottom: 120px; 
+ 
+}
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+
+.feature-name {
+display: flex;
+gap: 24px;    
 }
 .feature-list {
+margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
