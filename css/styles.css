@@ -12,7 +12,7 @@ h1, h2, h3, h4, h5, h6, p {
     margin: 0;
 } 
 a { text-decoration: none;}
-.conteiner {
+.container {
 max-width: 1158px; ;  
 padding: 0 15px ;  
 margin: 0 auto ;
@@ -21,7 +21,7 @@ margin: 0 auto ;
 .page-header {
 border-bottom: 1px solid #e7e9fc;
 }
-.header-conteiner {
+.header-container {
 display: flex;  
 align-items: center;  
 }
@@ -199,14 +199,15 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: #434455
 }
-.footer-conteiner {
+.footer-container {
 width: 264px; 
 height: 112px;
 margin-left: 156px;
  
 }   
-.footer-logo {
-padding-bottom: 16px;    
+.footer-logo  {
+display: inline-block;    
+margin-bottom: 16px;    
 }
 
 .page-footer {
