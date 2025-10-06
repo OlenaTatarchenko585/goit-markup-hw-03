@@ -134,7 +134,7 @@ width: calc((100% - 72px) / 4);
 .feature-section {
 padding-top: 120px; 
 padding-bottom: 120px; 
- 
+
 }
 .visually-hidden {
 position: absolute;
@@ -152,6 +152,7 @@ overflow: hidden;
 
 .feature-name {
 display: flex;
+
 gap: 24px;    
 }
 .feature-list {
@@ -169,10 +170,17 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 /* team */
+.img {
+display: block;    
+}
 .team-section {
+padding-top: 120px;;  
+padding-bottom: 120px;  
+margin: auto;
 background: #f4f4fd;
 }
 .team-card-title {
+margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -182,25 +190,38 @@ text-transform: capitalize;
 color: #2e2f42;
 }
 .team-name {
+border-radius: 0px 0px 4px 4px;
+width: calc((100% - 72px) / 4);
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
+text-align:center;
 color: #2e2f42;
 background: #fff;
+border-radius: 0 0 4px 4px;
+padding: 0px 0px 32px;
+width: 264px;
+height: 380px;
+
 }
 
 .team-foto {
-
+width: 264px;
+height: 260px;
+}
+.container-card {
+padding-top: 32px ;
+padding-bottom: 32px;    
 }
 
 .team-title {
+text-align: center;
 font-weight:  500;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-text-align: center;
+margin-bottom: 8px;
 color: #2e2f42;
 
 }
@@ -208,26 +229,58 @@ color: #2e2f42;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
+text-align:center;
 color: #434455;
+text-align: center;
 }
 .team-list {
 
+display: flex;
+gap: 24px;
+
 }
 /*portfolio */
+.portfolio-section {
+padding-top: 120px ;
+padding-bottom: 120px;
+
+}
 .portfolio-card-title {
+margin-bottom: 72px;
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-text-align: center;
+text-align:center;
 color: #2e2f42;
 }
-.portfolio-card {
-background: #fff;
+.portfolio-name {
+display: flex;
+flex-wrap: wrap;
+column-gap: 24px;
+row-gap: 48px;
 }
+.portfolio-card {
+width: calc((100% - 48px) / 3);
+border: 1px solid #e7e9fc;
+border-top: none;
+background: #fff;}
+
+.portfolio-job {
+
+border-bottom: 1px solid #e7e9fc;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+padding: 32px 16px;
+width: 360px;
+height: 120px;
+}
+
+
+
 .portfolio-title {
+margin-bottom: 8px;
 font-weight: 500;
 font-size: 20px;
 line-height: 1.2;
